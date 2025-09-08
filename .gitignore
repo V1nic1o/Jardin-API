@@ -1,0 +1,42 @@
+# Entornos Virtuales
+# Ignora la carpeta de tu entorno virtual
+venv/
+venv310/
+env/
+.env/
+.venv/
+*-env/
+
+# Archivos de Secretos y Configuración Local
+# ¡MUY IMPORTANTE! Nunca subas tus variables de entorno a Git
+.env
+*.env
+
+# Archivos de Bytecode de Python
+# Estos se generan automáticamente al correr tu código
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Carpetas de IDE y editores de código
+.vscode/
+.idea/
+*.iml
+
+# Archivos de Sistema Operativo
+.DS_Store
+Thumbs.db
+
+# Archivos de testing y cobertura
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Logs
+*.log
+
+# Paquetes y dependencias de instalación local
+/dist
+/build
+*.egg-info
